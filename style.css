@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'DEADCRT';
+    src: url(./fonts/DEADCRT.ttf);
+}
+p {
+    font-family: 'DEADCRT';
+    text-align: center;
+    color: greenyellow;
+    font-size: 2.5vw;
+}
+p:hover {
+    text-shadow: 1px 1px 10px black;
+}
+h1 {
+    font-family: 'DEADCRT';
+    text-align: center;
+    color: slategray;
+    font-size: 4vw;
+}
+h1:hover {
+    text-shadow: 1px 1px 10px black;
+}
+h1:active {
+    color: darkslategray;
+}
+body {
+    background-color: darkslategray;
+}
