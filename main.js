@@ -1,4 +1,4 @@
 let stage = index.indexInit;
 let fps = 60;
 
-setInterval(() => stage(),fps/1000);
+setInterval(() => stage = stage(),fps/1000);
