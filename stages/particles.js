@@ -51,6 +51,7 @@ let particleTest = {
         return particleTest.particleTest;
     },
     particleTest:() => {
+        particleTest.sprites.background.img = images.cave
         if (mouse.getMouseDown()) {
             particleTest.emit = true;
         } else {
