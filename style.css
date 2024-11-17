@@ -27,3 +27,7 @@ h1:active {
 body {
     background-color: darkslategray;
 }
+
+html {
+    overflow-x: hidden;
+}
